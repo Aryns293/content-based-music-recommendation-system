@@ -111,7 +111,7 @@ streamlit run app.py
 
 ## 🧑‍💻 Author
 
-<Aryan Sharma<br>
+Aryan Sharma<br>
 Software Engineering<br>
 DTU
 ---
