@@ -6,6 +6,11 @@ Built with Python, Scikit-learn, and Streamlit.
 
 ---
 
+## 🚀 Live Demo
+
+🔗 **Try the App Here:**  
+https://content-based-music-recommendation-system.streamlit.app/
+
 ## 📌 Project Overview
 
 This project implements a **content-based filtering recommendation system** that recommends songs based on textual similarity between song titles and artists.
