@@ -14,7 +14,7 @@ vectorizer = TfidfVectorizer(stop_words='english')
 vector_data = vectorizer.fit_transform(music['tags'])
 
 # Train KNN model using Euclidean distance
-knn_model = NearestNeighbors(metric='euclidean', algorithm='brute', n_neighbors=6)
+knn_model = NearestNeighbors(metric='cosine', algorithm='brute', n_neighbors=6)
 knn_model.fit(vector_data)
 
 # Save the model and vectorizer
